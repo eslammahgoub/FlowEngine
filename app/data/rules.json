@@ -1,0 +1,6 @@
+[
+  {"id":"1","title":"Rule 1 playing the Game","body":"function(obj){return obj.play==true;}","true_id":2,"false_id":3},
+  {"id":"2","title":"Rule 2 the Game Type","body":"function(obj){return obj.gameType=='chess';}","true_id":3,"false_id":4},
+  {"id":"3","title":"Rule 3 the Game rule One","body":"function(obj){return obj.moveKing=='forward';}","true_id":4,"false_id":4},
+  {"id":"4","title":"Rule 4 the Game rule Two","body":"function(obj){return obj.moveQueen=='right';}","true_id":null,"false_id":null}
+]
