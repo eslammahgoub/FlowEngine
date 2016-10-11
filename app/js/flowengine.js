@@ -121,7 +121,7 @@
     var currentRule = this.getRuleById(id);
     var status = {};
     var func;
-    func = eval('['+ currentRule.body +']')[0];
+    func = eval('('+ currentRule.body +')');
     if(func(flowObj)){
       status.message = currentRule.title + " (#" + id + "), Passed";
       status.messageType="success";
